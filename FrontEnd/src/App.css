@@ -1,0 +1,127 @@
+.App {
+  height: 780px;
+  border: 1px solid #ddd;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+
+.appLeft {
+  float: left;
+  background-color: white;
+  height: 100%;
+  margin-top: 0%;
+  width: 50%;
+}
+
+.loginSide {
+  margin-left: 15%;
+  padding: 20px;
+  height: 74%;
+  margin-top: 13%;
+  margin-bottom: 13%;
+  background-color: #F3F5F5;
+}
+.loginBox {
+  height: 70%;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+.inputBox {
+  background-color: white;
+  margin-right: 20%;
+  padding-left: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  height: 45px;
+  width: 85%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #fff;
+}
+.submit-btn {
+  background-color: #008AB0;
+  margin-right: 20%;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  height: 45px;
+  width: 88%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #fff;
+}
+.footer {
+  font-size: 10px;
+  margin-top: 14%;
+  margin-bottom: 2%;
+}
+
+
+
+.appRight {
+  float: right;
+  background-color: #008AB0;
+  height: 100%;
+  margin-top: 0%;
+  width: 50%;
+}
+
+.CTASide {
+  margin-right: 15%;
+  padding: 20px;
+  height: 74%;
+  margin-top: 13%;
+  margin-bottom: 13%;
+  background-color: #007595;
+}
+.CTA {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  margin-top: 15%;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CTADetails {
+  float: right;
+  line-height: 1.4;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 96%;
+  margin-top: 2%;
+  margin-right: 5%;
+  width: 65%;
+}
+.icons {
+  float: left;
+  background-image: url('icons.png');
+  height: 100%;
+  width: 25%;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+.userDetails {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.6);;
+  text-align: left; 
+  margin-top: 3%;
+  margin-right: 2%;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 2px 8px 10px #aaa;
+  width: 40%;
+  padding-left: 20px;
+  padding: 18px;
+  height: 550px;
+}
+
