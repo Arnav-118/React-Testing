@@ -1,27 +1,31 @@
 import React from "react";
 import '../App.css';
 import './AppLeft.css';
+import Submit from "../LoginAuth/Submit";
+import Dashboard from "../Dashboard";
 
-function AppLeft()
+function AppLeft(props)
 {
     return(
-        <div class="appLeft">
-        <div class="loginSide">
-          <div class="loginBox">
-            <p class="pageDescription">LOGO or PAGE<br />Description</p>
+        <div className="appLeft">
+        <div className="loginSide">
+          <div className="loginBox">
+            <p className="pageDescription">LOGO or PAGE<br />Description</p>
             <p>Please login to continue</p>
             <br />
-            <input id="user" class="inputBox" type="text" placeholder="Username" />
+            <input id="user" className="inputBox" type="text" placeholder="Username" onChange={props.changeState}/>
             <p></p>
-            <input id="password" class="inputBox" type="password" placeholder="Password" />
+            <input id="password" className="inputBox" type="password" placeholder="Password" />
             <p></p>
-            <button name="submitbtn" class="submit-btn" onclick="showUserDetails()">Login</button><br /><br />
+            <Submit state={props.state} changeState={props.changeState}/><br /><br />
             <input type="checkbox" />
-            <label for="submitbtn" class="rememberMe">Remember me</label>
-            <label for="submitbtn" class="forgotPwd">Forgot Password?</label>
-            <p class="footer">Feel free to contact us at <a href="mailto:info@geeksourceit.com">info@geeksourceit.com</a></p>
+            <label for="submitbtn" className="rememberMe">Remember me</label>
+            <label for="submitbtn" className="forgotPwd">Forgot Password?</label>
+            <p id="invalidInput" />
+            <p className="footer">Feel free to contact us at <a href="mailto:info@geeksourceit.com">info@geeksourceit.com</a></p>
           </div>
         </div>
+        {props.children}
         </div>
     );
 }
