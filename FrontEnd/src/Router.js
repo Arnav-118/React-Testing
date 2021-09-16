@@ -13,7 +13,8 @@ class Router extends Component
 
   changeState = () => {
     this.setState({
-        userId: document.getElementById("user").value
+        userId: document.getElementById("user").value,
+        password: document.getElementById("password").value
     })
 }
 

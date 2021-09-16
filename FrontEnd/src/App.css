@@ -56,8 +56,9 @@
   border: 1px solid #fff;
 }
 .footer {
+  position: absolute;
   font-size: 10px;
-  margin-top: 14%;
+  margin-top: 4%;
   margin-bottom: 2%;
 }
 
@@ -128,4 +129,11 @@
 .testing-state {
   text-align: left;
 }
+
+
+.error {
+  color: red;
+  font-weight: 700;
+}
+
 
